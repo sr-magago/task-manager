@@ -1,0 +1,73 @@
+
+body{
+    background: #000;
+}
+
+.grid{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    background: red;
+}
+
+.grid .row{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px;
+    background: yellow;
+}
+
+.grid .row .collumn{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px;
+    background: pink;
+}
+
+.bg{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    background: purple;
+    color: #fff;
+}
+
+ .collumn:nth-of-type(2n) .bg {
+    background: green;
+}
+
+.grid .row  .collumn.collumn-width-100{
+    width: 100%;
+}
+
+.grid .row  .collumn.collumn-width-75{
+    width: 75%;
+}
+
+.grid .row  .collumn.collumn-width-50{
+    width: 50%;
+}
+
+.grid .row  .collumn.collumn-width-25{
+    width: 25%;
+}
+
+.grid .row  .collumn.collumn-width-60{
+    width: 60%;
+}
+
+.grid .row  .collumn.collumn-width-40{
+    width: 40%;
+}
+
+.grid .row  .collumn.collumn-width-33{
+   width: 33%.333%;
+}
+
