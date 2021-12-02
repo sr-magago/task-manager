@@ -14,7 +14,7 @@ export const vitrine = () => {
 
     const modeloItem = (produto) => {
         return /*html*/`
-            <li>
+            <li data-id="${produto.id}">
                 <div class="card">
                     <h2>${produto.titulo}</h2>
                     <p>${produto.descricao}</p>
